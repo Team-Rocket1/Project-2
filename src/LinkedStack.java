@@ -35,6 +35,4 @@ public class LinkedStack<T> implements StackInterface<T> {
 
     @Override
     public void clear() { head = null; size = 0; }
-
-    public int size() { return size; }
 }
